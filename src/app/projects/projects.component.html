@@ -1,16 +1,71 @@
-<div class="projects-container p-4">
-    <h1 class="m-2 underline underline-offset-4 text-2xl flex justify-center">My Projects</h1>
-    <h3 class="underline underline-offset-4 text-xl flex justify-start mb-1">Ticketing Site</h3>
-    <p>In the development of a ticketing site, I harnessed the power of Angular, Tailwind CSS, and Angular Material to deliver a sophisticated and intuitive frontend user interface. Angular, as a robust and modular framework, provided the foundation for building dynamic single-page applications, enabling seamless navigation and efficient data handling. Tailwind CSS played a pivotal role in styling the site, offering a utility-first approach that expedited the design process while ensuring a polished and responsive layout. Additionally, Angular Material components seamlessly integrated into the UI, enhancing the site's visual appeal and usability with pre-built, customizable components.
-        The ticketing site boasts a modern and user-friendly design, thanks to the combination of Angular, Tailwind CSS, and Angular Material. The frontend not only offers a seamless ticket purchasing experience but also ensures intuitive navigation and responsiveness across various devices. Through thoughtful integration of these frontend technologies, the ticketing site achieves a balance between aesthetics and functionality, providing users with a visually appealing and efficient platform to explore, select, and purchase tickets for various events.      
-                </p>
-                <h1 class="underline underline-offset-4 text-xl flex justify-start mb-1">Employee Management Interface</h1>
-                <p>n the development of an Employee Management Interface, I employed a sophisticated tech stack that seamlessly integrates Angular, Tailwind CSS, and Angular Material for the frontend, along with the Node.js framework NestJS for the backend. This comprehensive CRUD application enables users to efficiently manage employee records through a user-friendly interface. Angular, as the frontend framework, provides a structured and modular approach to building dynamic single-page applications. Tailwind CSS contributes to the visual aesthetics, offering a utility-first approach for quick and customizable styling, while Angular Material components enhance the user interface with pre-built, design-consistent elements.
+<div class="projects-container p-4 text-zinc-600">
+  <h1 class="m-2 underline underline-offset-4 text-2xl flex justify-center">
+    My Projects
+  </h1>
 
-                    On the backend, NestJS serves as a robust Node.js framework, facilitating the creation of a RESTful API that supports CRUD functionalities for employee records. The application allows users to create new employee records, read existing details, update information as needed, and delete outdated records. The seamless integration of Angular and Tailwind CSS ensures a responsive and visually appealing frontend, while NestJS handles the backend logic, ensuring secure data management and interaction. Together, this tech stack establishes an Employee Management Interface that not only adheres to CRUD principles but also provides an intuitive and efficient platform for users to navigate, create accounts, and manage employee records with ease.</p>
-        <h3 class="underline underline-offset-4 text-xl flex justify-start mb-1">Quotes App</h3>
-    <p>In the development of a comprehensive quotes web application, I seamlessly integrate various technologies to ensure a robust and user-friendly experience. On the frontend, Angular, Tailwind CSS, and Angular Material collectively contribute to crafting a visually stunning and responsive user interface. Angular provides a structured framework for building dynamic single-page applications, while Tailwind CSS and Angular Material offer powerful tools for styling and designing the application with efficiency and aesthetic finesse.
-        For the backend, I employ NestJS, a Node.js framework known for its modularity and scalability. NestJS facilitates the construction of a RESTful API that supports CRUD functionalities, enabling seamless interactions between the frontend and backend. PostgreSQL serves as the database management system, ensuring reliable data persistence and retrieval. This integrated backend solution empowers the web app to handle user accounts, allowing for the creation, reading, updating, and deletion of quotes.</p>
-
+  <h3 class="text-xl flex justify-start mt-6">Ticketing Site</h3>
+  <div
+    class="tickets-container rounded-md p-4 border-2 border-gray-200 flex flex-row"
+  >
+    <div class="image-container basis-1/2">
+      <img alt="me" src="./assets/ticketsite.jpeg" />
     </div>
-    <button class="font-sans ml-8 mb-4" (click)="onButtonClick()">Contact Me</button>
+    <div class="right tickets-container basis-1/2">
+      <p>
+        In the development of a ticketing site, I harnessed the power of
+        Angular, Tailwind CSS, and Angular Material to deliver a sophisticated
+        and intuitive frontend user interface. The ticketing site boasts a
+        modern and user-friendly design, thanks to the combination of Angular,
+        Tailwind CSS, and Angular Material.Through thoughtful integration of
+        these frontend technologies, the ticketing site achieves a balance
+        between aesthetics and functionality, providing users with a visually
+        appealing and efficient platform to explore, select, and purchase
+        tickets for various events.
+      </p>
+    </div>
+  </div>
+
+  <h3 class="text-xl flex justify-start mb-1 mt-2">
+    Employee Management Interface
+  </h3>
+  <div
+    class="employees-container rounded-md border-2 border-gray-200 flex flex-row p-4"
+  >
+    <div class="image-container flex justify-center">
+      <img alt="me" src="./assets/EMP.png" />
+      <div class="right employees-container">
+        <p class="flex justify-center">
+          In the development of an Employee Management Interface, I employed an
+          Angular, Tailwind CSS, and Angular Material for the frontend, along
+          with the Node.js framework NestJS for the backend. This comprehensive
+          CRUD application enables users to efficiently manage employee records
+          through a user-friendly interface. The application allows users to
+          create new employee records, read existing details, update information
+          as needed, and delete outdated records.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="text-xl flex justify-start mb-1">Quotes App</h3>
+  <div
+    class="quotes-container rounded-md p-4 border-2 border-gray-200 flex flex-row"
+  >
+    <p class="text-center">
+      In the development of a comprehensive quotes web application,On the
+      frontend i used; Angular, Tailwind CSS, and Angular Material collectively
+      contribute to crafting a visually stunning and responsive user
+      interface.For the backend, I employ NestJS, a Node.js framework known for
+      its modularity and scalability.This integrated backend solution empowers
+      the web app to handle user accounts, allowing for the creation, reading,
+      updating, and deletion of quotes.
+    </p>
+  </div>
+  
+  <button
+    class="font-sans text-zinc-600 float-right mr-8"
+    (click)="onButtonClick()"
+  >
+    Contact Me
+  </button>
+</div>

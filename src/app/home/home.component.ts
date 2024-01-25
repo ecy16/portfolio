@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
+import { MatIcon } from '@angular/material/icon';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [MatIcon],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+
+
 constructor (private router:Router){}
 
 ngOnInit():void{}
