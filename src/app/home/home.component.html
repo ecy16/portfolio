@@ -1,20 +1,127 @@
-<div class="home-container p-8 text-zinc-600 flex flex-row">
-  <!-- <img alt="MyProfile" src="./assets/MyProfile.jpeg"> -->
+<div class="home-container p-8 text-zinc-300 font-sans">
+  <div class="flex flex-row">
+    
   <div class="left-container basis-1/2">
-    <h3 class="font-sans">Hi, My Name Is</h3>
-    <!-- <h1 class="text-2xl font-sans">NYAMBURA NJUGUNA</h1> -->
+    <h3 class="text-4xl">Hello,I'm</h3>
+
+    <h1 class="text-8xl">NYAMBURA NJUGUNA</h1>
+    <div class="text-xl indent-1 mt-4">FRONT-END DEVELOPER</div>
+    <div class="about">
+      <p>
+        I am a skilled and dedicated software developer with experience in
+        building robust and scalable web applications. My expertise lies in
+        front-end development using Angular and TypeScript, combined with a
+        solid foundation in server-side development with Node.js.
+      </p>
+
+
+        <h1 class="text-4xl text-center mt-6">What I Do</h1>
+        <div class="do-cards flex gap-2  justify-center">
+          <div class="web-dev p-4 border rounded-md">
+
+            <h1 class="text-2xl text-center">Web Dev</h1>
+            <p class="text-center">
+              In the realm of WebDevelopment, my proficiency extends to leveraging
+              Angular and Tailwind CSS to engineer dynamic and visually appealing
+              web applications. Angular provides a robust framework that
+              facilitates the creation of scalable and maintainable single-page
+              applications, allowing for the seamless integration of complex
+              features and data-binding capabilities.
+            </p>
+          </div>
+          <div class="API-dev p-4 border rounded-md">
+            <h1 class="text-2xl text-center">API Dev</h1>
+            <P class="text-center"
+              >To fortify the APIs for my web applications, I employ NestJS in
+              conjunction with PostgreSQL. NestJS, being a powerful and modular
+              TypeScript framework, enables the development of scalable
+              server-side applications with an emphasis on maintainability and
+              organization</P
+            >
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <h1 class="text-4xl text-center mt-6">Projects</h1>
+        <div class="project-cards flex gap-2">
+          <div class="project-1 p-4 border rounded-md mt-4">
+            <div class="img p-"><img src="/assets/ticketsite.jpeg" /></div>
+            <p class="mt-2">
+              A ticketin site for selling tickets to various events. Supports both
+              vendors and clients.
+            </p>
+          </div>
+          <div class="project-1 p-4 border rounded-md mt-4">
+            <div class="img p-"><img src="/assets/ticketsite.jpeg" /></div>
+            <p class="mt-2">
+              A ticketin site for selling tickets to various events. Supports both
+              vendors and clients.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="Resume-container">
+        <button>Download CV</button>
+      </div>
+      <div class="contact-container mt-4">
+        <h1 class="text-center text-4xl">Contact Me</h1>
+        <form class="max-w-sm mx-auto">
+          <div class="mb-5">
+            <label
+              for="name"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Your Name</label
+            >
+            <input
+              type="name"
+              id="name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="mb-5">
+            <label
+              for="  email"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Your Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="email@mail.com"
+              required
+            />
+          </div>
+          <div class="mb-5">
+            <label
+              for="text"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Your Message</label
+            >
+            <input
+              type="text"
+              id="large-input"
+              class="block w-full p-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text"
+              placeholder="Message"
+            />
+          </div>
+          <div class="flex items-start mb-5">
+            <button
+              type="submit"
+              class="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full p-4 text-center dark:bg-zinc-500"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="right-container basis-1/2 ">
+      <img src="/assets/Pro.jpeg">
+    </div>
+  
+      </div>
   </div>
-  <div class="right-container basis-1/2">
-    <p class="text-xl font-sans indent-1">
-      I am a skilled and dedicated software developer with experience in
-      building robust and scalable web applications. My expertise lies in
-      front-end development using Angular and TypeScript, combined with a solid
-      foundation in server-side development with Node.js.
-    </p>
-  </div>
-</div>
-<button
-  class="font-sans text-zinc-600 float-right mr-8"
-  (click)="onButtonClick()">
-  More About Me 
-</button>
+ 

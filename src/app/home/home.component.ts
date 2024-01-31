@@ -9,13 +9,11 @@ import { Router } from '@angular/router';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-
-
+ 
 constructor (private router:Router){}
 
 ngOnInit():void{}
 onButtonClick(){
   this.router.navigate(['/about'])
 }
-
 }
